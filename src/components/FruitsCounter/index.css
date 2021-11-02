@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.fruits-bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fruits-card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 550px;
+  width: 550px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.heading {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto';
+}
+.count {
+  color: #ffd569;
+}
+.fruits-container {
+  display: flex;
+  justify-content: space-between;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fruits-name {
+  width: 200px;
+  margin: 30px;
+  margin-left: 40px;
+}
+.button {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  background-color: #007bff;
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px;
+}
